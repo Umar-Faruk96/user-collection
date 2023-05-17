@@ -1,0 +1,64 @@
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 0.5rem;
+    margin: var(--littleMargin);
+}
+
+section.userSet-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+section.user-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 0.3rem;
+    border: 1px solid #bebcbc;
+    padding: var(--padding);
+    margin: var(--littleMargin);
+    border-radius: var(--border-radius);
+}
+
+section.user-container:hover {
+    border: 1px solid var(--hover-color);
+}
+
+div.img-container img {
+    border-radius: 50%;
+}
+
+div.details-container h3 {
+    color: var(--font-color);
+    margin: var(--littleMargin) 0;
+}
+
+div.details-container p {
+    color: var(--gray-color);
+    margin: var(--littleMargin) 0;
+}
+
+div.details-container button {
+    background-color: var(--link-color);
+    padding: var(--btn-padding);
+    border-radius: var(--border-radius);
+    border: none;
+    color: #eee;
+}
+
+div.details-container button:hover {
+    background-color: var(--hover-color);
+    cursor: pointer;
+    transition: all 0.5s ease-out .2s;
+}
+
+div.details-container a {
+    color: var(--link-color);
+    margin: 0;
+    text-decoration: none;
+}
+
+div.details-container a:hover {
+    color: var(--hover-color);
+    transition: all 1s ease-out .5s;
+}

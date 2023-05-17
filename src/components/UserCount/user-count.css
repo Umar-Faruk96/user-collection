@@ -1,0 +1,25 @@
+aside {
+    border-left: 1px solid #dbd5d5;
+    padding: var(--padding);
+}
+
+aside h2 {
+    font-weight: 600;
+    font-size: var(--font-size);
+}
+
+aside h4 {
+    font-weight: 600;
+}
+
+small {
+    color: var(--font-color);
+}
+
+aside h4 small {
+    font-size: 1rem;
+}
+
+aside p {
+    font-size: 0.8rem;
+}
